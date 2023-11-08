@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210486042AF46B9300AC5202 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486032AF46B9300AC5202 /* AppDelegate.swift */; };
+		210486062AF46B9300AC5202 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486052AF46B9300AC5202 /* SceneDelegate.swift */; };
+		210486082AF46B9300AC5202 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486072AF46B9300AC5202 /* ViewController.swift */; };
+		2104860B2AF46B9300AC5202 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 210486092AF46B9300AC5202 /* Main.storyboard */; };
+		2104860D2AF46B9400AC5202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2104860C2AF46B9400AC5202 /* Assets.xcassets */; };
+		210486102AF46B9400AC5202 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104860E2AF46B9400AC5202 /* LaunchScreen.storyboard */; };
+		2104861B2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104861A2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.swift */; };
+		210486252AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486242AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.swift */; };
+		210486272AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486262AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift */; };
+		210486342AF4788600AC5202 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210486332AF4788600AC5202 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		210486172AF46B9500AC5202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210485F82AF46B9300AC5202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210485FF2AF46B9300AC5202;
+			remoteInfo = Apple_pie_project_Mancilla_Efrain;
+		};
+		210486212AF46B9500AC5202 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 210485F82AF46B9300AC5202 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 210485FF2AF46B9300AC5202;
+			remoteInfo = Apple_pie_project_Mancilla_Efrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		210486002AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apple_pie_project_Mancilla_Efrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210486032AF46B9300AC5202 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		210486052AF46B9300AC5202 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		210486072AF46B9300AC5202 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2104860A2AF46B9300AC5202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2104860C2AF46B9400AC5202 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2104860F2AF46B9400AC5202 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		210486112AF46B9400AC5202 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		210486162AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_pie_project_Mancilla_EfrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2104861A2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_pie_project_Mancilla_EfrainTests.swift; sourceTree = "<group>"; };
+		210486202AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Apple_pie_project_Mancilla_EfrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		210486242AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_pie_project_Mancilla_EfrainUITests.swift; sourceTree = "<group>"; };
+		210486262AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		210486332AF4788600AC5202 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210485FD2AF46B9300AC5202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210486132AF46B9500AC5202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104861D2AF46B9500AC5202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		210485F72AF46B9300AC5202 = {
+			isa = PBXGroup;
+			children = (
+				210486332AF4788600AC5202 /* Game.swift */,
+				210486022AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */,
+				210486192AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests */,
+				210486232AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests */,
+				210486012AF46B9300AC5202 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		210486012AF46B9300AC5202 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				210486002AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain.app */,
+				210486162AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.xctest */,
+				210486202AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		210486022AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */ = {
+			isa = PBXGroup;
+			children = (
+				210486032AF46B9300AC5202 /* AppDelegate.swift */,
+				210486052AF46B9300AC5202 /* SceneDelegate.swift */,
+				210486072AF46B9300AC5202 /* ViewController.swift */,
+				210486092AF46B9300AC5202 /* Main.storyboard */,
+				2104860C2AF46B9400AC5202 /* Assets.xcassets */,
+				2104860E2AF46B9400AC5202 /* LaunchScreen.storyboard */,
+				210486112AF46B9400AC5202 /* Info.plist */,
+			);
+			path = Apple_pie_project_Mancilla_Efrain;
+			sourceTree = "<group>";
+		};
+		210486192AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				2104861A2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.swift */,
+			);
+			path = Apple_pie_project_Mancilla_EfrainTests;
+			sourceTree = "<group>";
+		};
+		210486232AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				210486242AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.swift */,
+				210486262AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift */,
+			);
+			path = Apple_pie_project_Mancilla_EfrainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		210485FF2AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2104862A2AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_Efrain" */;
+			buildPhases = (
+				210485FC2AF46B9300AC5202 /* Sources */,
+				210485FD2AF46B9300AC5202 /* Frameworks */,
+				210485FE2AF46B9300AC5202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Apple_pie_project_Mancilla_Efrain;
+			productName = Apple_pie_project_Mancilla_Efrain;
+			productReference = 210486002AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		210486152AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2104862D2AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_EfrainTests" */;
+			buildPhases = (
+				210486122AF46B9500AC5202 /* Sources */,
+				210486132AF46B9500AC5202 /* Frameworks */,
+				210486142AF46B9500AC5202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210486182AF46B9500AC5202 /* PBXTargetDependency */,
+			);
+			name = Apple_pie_project_Mancilla_EfrainTests;
+			productName = Apple_pie_project_Mancilla_EfrainTests;
+			productReference = 210486162AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2104861F2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 210486302AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_EfrainUITests" */;
+			buildPhases = (
+				2104861C2AF46B9500AC5202 /* Sources */,
+				2104861D2AF46B9500AC5202 /* Frameworks */,
+				2104861E2AF46B9500AC5202 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				210486222AF46B9500AC5202 /* PBXTargetDependency */,
+			);
+			name = Apple_pie_project_Mancilla_EfrainUITests;
+			productName = Apple_pie_project_Mancilla_EfrainUITests;
+			productReference = 210486202AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		210485F82AF46B9300AC5202 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					210485FF2AF46B9300AC5202 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					210486152AF46B9500AC5202 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 210485FF2AF46B9300AC5202;
+					};
+					2104861F2AF46B9500AC5202 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 210485FF2AF46B9300AC5202;
+					};
+				};
+			};
+			buildConfigurationList = 210485FB2AF46B9300AC5202 /* Build configuration list for PBXProject "Apple_pie_project_Mancilla_Efrain" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 210485F72AF46B9300AC5202;
+			productRefGroup = 210486012AF46B9300AC5202 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				210485FF2AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */,
+				210486152AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests */,
+				2104861F2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		210485FE2AF46B9300AC5202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210486102AF46B9400AC5202 /* LaunchScreen.storyboard in Resources */,
+				2104860D2AF46B9400AC5202 /* Assets.xcassets in Resources */,
+				2104860B2AF46B9300AC5202 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210486142AF46B9500AC5202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104861E2AF46B9500AC5202 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210485FC2AF46B9300AC5202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210486082AF46B9300AC5202 /* ViewController.swift in Sources */,
+				210486042AF46B9300AC5202 /* AppDelegate.swift in Sources */,
+				210486062AF46B9300AC5202 /* SceneDelegate.swift in Sources */,
+				210486342AF4788600AC5202 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		210486122AF46B9500AC5202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2104861B2AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2104861C2AF46B9500AC5202 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				210486272AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITestsLaunchTests.swift in Sources */,
+				210486252AF46B9500AC5202 /* Apple_pie_project_Mancilla_EfrainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		210486182AF46B9500AC5202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210485FF2AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */;
+			targetProxy = 210486172AF46B9500AC5202 /* PBXContainerItemProxy */;
+		};
+		210486222AF46B9500AC5202 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 210485FF2AF46B9300AC5202 /* Apple_pie_project_Mancilla_Efrain */;
+			targetProxy = 210486212AF46B9500AC5202 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		210486092AF46B9300AC5202 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2104860A2AF46B9300AC5202 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2104860E2AF46B9400AC5202 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2104860F2AF46B9400AC5202 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		210486282AF46B9500AC5202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		210486292AF46B9500AC5202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2104862B2AF46B9500AC5202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apple_pie_project_Mancilla_Efrain/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-Efrain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2104862C2AF46B9500AC5202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Apple_pie_project_Mancilla_Efrain/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-Efrain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		2104862E2AF46B9500AC5202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-EfrainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple_pie_project_Mancilla_Efrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple_pie_project_Mancilla_Efrain";
+			};
+			name = Debug;
+		};
+		2104862F2AF46B9500AC5202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-EfrainTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple_pie_project_Mancilla_Efrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple_pie_project_Mancilla_Efrain";
+			};
+			name = Release;
+		};
+		210486312AF46B9500AC5202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-EfrainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apple_pie_project_Mancilla_Efrain;
+			};
+			name = Debug;
+		};
+		210486322AF46B9500AC5202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "COSC-Swift.Apple-pie-project-Mancilla-EfrainUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Apple_pie_project_Mancilla_Efrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		210485FB2AF46B9300AC5202 /* Build configuration list for PBXProject "Apple_pie_project_Mancilla_Efrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210486282AF46B9500AC5202 /* Debug */,
+				210486292AF46B9500AC5202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2104862A2AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_Efrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2104862B2AF46B9500AC5202 /* Debug */,
+				2104862C2AF46B9500AC5202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2104862D2AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_EfrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2104862E2AF46B9500AC5202 /* Debug */,
+				2104862F2AF46B9500AC5202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		210486302AF46B9500AC5202 /* Build configuration list for PBXNativeTarget "Apple_pie_project_Mancilla_EfrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				210486312AF46B9500AC5202 /* Debug */,
+				210486322AF46B9500AC5202 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 210485F82AF46B9300AC5202 /* Project object */;
+}
